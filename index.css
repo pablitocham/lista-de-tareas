@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+    background-image: conic-gradient(at 50% 50%, rgb(21, 102, 68), rgb(25, 147, 204));
+}
+
+h1 {
+    margin-top: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+#nuevasTareas {
+    margin-top: 25px;
+
+}
+
+input {
+    height: 40px;
+    width: 50%;
+}
+
+button {
+    height: 35px;
+    cursor: pointer;
+}
+
+#lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 20px;
+    border: 2px solid blue;
+    margin-top: 28px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+li button {
+    background-color: rgb(199, 231, 221);
+    color: rgb(8, 7, 7);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+button:hover {
+    background-color: aqua;
+}
