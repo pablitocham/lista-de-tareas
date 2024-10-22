@@ -2,7 +2,7 @@ function agregarTarea() {
     let nuevaTareasTexto = document.getElementById("nuevasTareas").value
     if (nuevaTareasTexto === "") {
         Swal.fire({
-            title: "Debe ingresar una tarea",
+            title: "Debes ingresar una tarea",
             icon: "warning"
           });
         return
