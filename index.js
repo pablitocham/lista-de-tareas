@@ -3,7 +3,7 @@ function agregarTarea() {
     if (nuevaTareasTexto === "") {
         Swal.fire({
             title: "Debe ingresar una tarea",
-            icon: "warnig"
+            icon: "warning"
           });
         return
     }
